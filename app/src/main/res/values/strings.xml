@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleAnimations</string>
+    <string name="slide_up">slide up</string>
+    <string name="slide_down">slide down</string>
+</resources>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="btn_margin_v">8dp</dimen>
+    <dimen name="flower_width">70dp</dimen>
+    <dimen name="flower_height">100dp</dimen>
+    <dimen name="flower_margin_top">36dp</dimen>
 </resources>

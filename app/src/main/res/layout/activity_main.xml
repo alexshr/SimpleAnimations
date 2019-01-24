@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
@@ -19,10 +20,10 @@
             android:text="@string/slide_up" />
 
         <FrameLayout
+            android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:animateLayoutChanges="true"
-            android:id="@+id/container">
+            android:animateLayoutChanges="true">
 
             <LinearLayout
                 android:id="@+id/panel"
@@ -33,6 +34,21 @@
                 android:orientation="vertical"
                 tools:ignore="Suspicious0dp">
 
+                <ImageView
+                    android:id="@+id/flower"
+                    android:layout_width="@dimen/flower_width"
+                    android:layout_height="@dimen/flower_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/flower_margin_top"
+                    app:srcCompat="@drawable/flower" />
+
+                <ImageView
+                    android:id="@+id/explosion"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/flower_margin_top"
+                    app:srcCompat="@drawable/explosion"/>
             </LinearLayout>
         </FrameLayout>
 
